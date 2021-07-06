@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Docker on 鹏大的大鹏</title>
+    <link>https://pengda.me/categories/Docker/</link>
+    <description>Recent content in Docker on 鹏大的大鹏</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 02 Jul 2021 11:06:12 +0800</lastBuildDate><atom:link href="https://pengda.me/categories/Docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker清理命令prune</title>
+      <link>https://pengda.me/posts/DockerPrune/</link>
+      <pubDate>Fri, 02 Jul 2021 11:06:12 +0800</pubDate>
+      
+      <guid>https://pengda.me/posts/DockerPrune/</guid>
+      <description>Docker使用中会产生很多冗余的镜像、容器和数据卷，那么怎么来清理这些冗余呢？ 系统环境： 虚拟机：Parallels Desktop 16 for Mac .Version 16.1.2(49151) 操作系统：CentOS Linux release 8.4.2105 Docker：20.10.7, build f0df350 常用清理命令参考： 清理所有未使用的镜像、容器和数据卷（不懂该命令请慎用）： docker system prune 查看所有悬挂状态的镜像： docker image ls -f dangling=true 清理所有悬挂状态的镜像： docker image prune OR docker image rm $(docker image ls -f dangling=true -q) 删除所有停止状态的容器： docker container prune 删除所有容器（你的所有容器会被清空，慎用） docker rm -f $(docker ps -aq) OR docker container rm -f $(docker container ls -aq) 删除不再使用的数据卷 docker volume rm $(docker volume ls -q) OR docker volume prune 删除构建缓存 docker builder prune </description>
+    </item>
+    
+    <item>
+      <title>Docker运行mysql设置密码问题</title>
+      <link>https://pengda.me/posts/DockerRunMySQL/</link>
+      <pubDate>Fri, 02 Jul 2021 09:09:12 +0800</pubDate>
+      
+      <guid>https://pengda.me/posts/DockerRunMySQL/</guid>
+      <description>Docker运行mysql时，必须提供一个初始化密码，但是有的开发者是本地测试使用，所以不想加密码该如何操作呢？ 系统环境： 虚拟机：Parallels Desktop 16 for Mac .Version 16.1.2(49151) 操作系统：CentOS Linux release 8.4.2105 Docker：20.10.7, build f0df350 MySQL：5.7 解决方案： 执行以下命令即可，连接mysql不需要填写密码便能连接上
+docker run --name mysql57 \ -e MYSQL_ALLOW_EMPTY_PASSWORD=yes \ -p 3306:3306 \ -d mysql:5.7 参数参考： 运行容器时设置root密码为：123456
+docker run --name mysql57 \ -e MYSQL_ROOT_PASSWORD=123456 \ -p 3306:3306 \ -d mysql:5.7 运行容器时创建一个新的用户，并将root密码设置为随机，一般使用场景为单个项目数据库使用唯一的账号密码来管理：
+docker run --name=mysqlBlog \ -e MYSQL_DATABASE=blog \ -e MYSQL_USER=blog \ -e MYSQL_PASSWORD=blog \ -e MYSQL_RANDOM_ROOT_PASSWORD=yes \ -p 3306:3306 \ -d mysql:5.7 </description>
+    </item>
+    
+    <item>
+      <title>Docker容器中如何使用vi或者vim编辑器</title>
+      <link>https://pengda.me/posts/DockerNoVim/</link>
+      <pubDate>Thu, 01 Jul 2021 17:46:11 +0800</pubDate>
+      
+      <guid>https://pengda.me/posts/DockerNoVim/</guid>
+      <description>Docker容器没有安装vi或者vim编辑器，导致提示：command not found 系统环境： 虚拟机：Parallels Desktop 16 for Mac .Version 16.1.2(49151) 操作系统：CentOS Linux release 8.4.2105 Docker：20.10.7, build f0df350 解决方案： 依次执行以下命令即可
+apt-get update apt-get install vim -y </description>
+    </item>
+    
+    <item>
+      <title>CentOS8安装Docker</title>
+      <link>https://pengda.me/posts/CentOS8InstallDocker/</link>
+      <pubDate>Tue, 29 Jun 2021 14:32:22 +0800</pubDate>
+      
+      <guid>https://pengda.me/posts/CentOS8InstallDocker/</guid>
+      <description>在CentOS8系统上安装Docker环境步骤 系统环境： 虚拟机：Parallels Desktop 16 for Mac .Version 16.1.2(49151) 操作系统：CentOS Linux release 8.4.2105 Docker：20.10.7, build f0df350 安装过程 error.先发个错误：podman已经安装导致的报错，执行以下命令删除podman后继续执行后续安装步骤即可，如果你不知道podman是什么，建议直接先执行以下解决方案给出的命令 解决方案： yum -y erase podman buildah 错误参考：(只要看到 installed package podman&amp;hellip; 基本就是这个问题) Error: Problem 1: problem with installed package podman-3.0.1-7.module_el8.4.0+830+8027e1c4.x86_64 - package podman-3.0.1-7.module_el8.4.0+830+8027e1c4.x86_64 requires runc &amp;gt;= 1.0.0-57, but none of the providers can be installed - package podman-3.0.1-6.module_el8.4.0+781+acf4c33b.x86_64 requires runc &amp;gt;= 1.0.0-57, but none of the providers can be installed - package containerd.io-1.4.6-3.1.el8.x86_64 conflicts with runc provided by runc-1.</description>
+    </item>
+    
+  </channel>
+</rss>
