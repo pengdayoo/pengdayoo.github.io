@@ -1,1 +1,4 @@
-User-agent:*
+User-agent: *
+Disallow: 
+
+Sitemap: https://pengda.me/sitemap.xml
