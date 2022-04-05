@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>鹏大的大鹏.Rocky</title>
+    <title>鹏大的大鹏.Zsh</title>
     <meta type="keyword" content='鹏大的大鹏,Blog'>
     <meta type="description" content='鹏大的大鹏.Blog'>
     <meta charset="utf-8" />
@@ -12,7 +12,7 @@
     <link rel="stylesheet" href='https://pengda.me/assets/css/tagCloud.css'/>
     <script src='https://pengda.me/assets/js/tagCloud.js'></script>
     <link rel="stylesheet" href='https://pengda.me/assets/css/main.css'/>
-    <link rel="canonical" href="https://pengda.me/series/Rocky/">
+    <link rel="canonical" href="https://pengda.me/tags/Zsh/">
     <noscript><link rel="stylesheet" href='https://pengda.me/assets/css/noscript.css'/></noscript>
     <style>
         :root{--site-background : url("https://pengda.me/images/bg.jpg")};
@@ -38,7 +38,7 @@
         </div>
         <div class="content">
             <div class="inner">
-                <h1>Rocky</h1>
+                <h1>Zsh</h1>
                 
             </div>
         </div>
@@ -76,15 +76,6 @@
                         
                         <a href='#linuxZshPlugins' alt="Rocky Linux设置zsh">
                             Rocky Linux设置zsh
-                        </a>
-                        
-                    </span>
-                </li>
-                <li>
-                    <span>
-                        
-                        <a href='#LinuxStaticNetwork' alt="Rocky Linux设置静态IP">
-                            Rocky Linux设置静态IP
                         </a>
                         
                     </span>
@@ -180,90 +171,6 @@ plugins=(
 source ~/.zshrc
 </code></pre><p>可以根据自己的需求可以增加其他插件到zsh配置中。</p>
 
-                    </article>
-                
-            
-        
-            
-                
-                    
-                    <article id='LinuxStaticNetwork'>
-                        <h2 class="major">Rocky Linux设置静态IP</h2>
-                        
-                            
-                                <time datetime='2022-04-05T14:58:48&#43;0800' class="post-date">Create. 2022-04-05 14:58:48</time>
-                            
-                        
-                        <span class="image main"><img src="" alt="" /></span>
-                        <h2 id="虚拟机安装rocky-linux后设置网络静态ip">虚拟机安装Rocky Linux后设置网络、静态IP</h2>
-<h3 id="系统环境">系统环境：</h3>
-<pre tabindex="0"><code>虚拟机：Parallels Desktop 17 for Mac  .Version 17.1.0(51516)
-操作系统：Rocky Linux 8.5 (Green Obsidian) x86_64
-Kernel：4.18.0-348.20.1.el8_5.x86_64
-</code></pre><p><img src="/images/Rocky8.5-neofetch.png" alt="CentOS8-neofetch"></p>
-<h3 id="操作过程">操作过程</h3>
-<h4 id="1进入网络配置目录">1.进入网络配置目录</h4>
-<pre tabindex="0"><code>cd /etc/sysconfig/network-scripts/
-</code></pre><h4 id="2编辑网络配置文件文件名一般为ifcfg-enp0s开头后面是0-9的数字这里我的是ifcfg-enp0s5">2.编辑网络配置文件（文件名一般为ifcfg-enp0s开头，后面是0-9的数字，这里我的是ifcfg-enp0s5）</h4>
-<pre tabindex="0"><code>vim ifcfg-enp0s5
-</code></pre><h4 id="3内容一般如下">3.内容一般如下</h4>
-<pre tabindex="0"><code>TYPE=Ethernet
-PROXY_METHOD=none
-BROWSER_ONLY=no
-BOOTPROTO=dhcp
-DEFROUTE=yes
-IPV4_FAILURE_FATAL=no
-IPV6INIT=yes
-IPV6_AUTOCONF=yes
-IPV6_DEFROUTE=yes
-IPV6_FAILURE_FATAL=no
-NAME=enp0s5
-UUID=83ae****-7c**-49**-9f**-8f1a25******
-DEVICE=enp0s5
-ONBOOT=yes
-</code></pre><h4 id="4修改内容为">4.修改内容为</h4>
-<pre tabindex="0"><code>将
-BOOTPROTO=dhcp
-
-修改为
-BOOTPROTO=static
-
-不放心可以先将BOOTPROTO=dhcp注释，前面加#即可，查看6.修改后的内容为
-</code></pre><h4 id="5添加内容为">5.添加内容为</h4>
-<pre tabindex="0"><code>IPADDR=10.211.55.5
-GATEWAY=10.211.55.1
-NETMASK=255.255.255.0
-DNS1=10.211.55.1
-</code></pre><h4 id="6修改后的内容为">6.修改后的内容为</h4>
-<pre tabindex="0"><code>TYPE=Ethernet
-PROXY_METHOD=none
-BROWSER_ONLY=no
-#BOOTPROTO=dhcp
-BOOTPROTO=static
-DEFROUTE=yes
-IPV4_FAILURE_FATAL=no
-IPV6INIT=yes
-IPV6_AUTOCONF=yes
-IPV6_DEFROUTE=yes
-IPV6_FAILURE_FATAL=no
-NAME=enp0s5
-UUID=83ae****-7c**-49**-9f**-8f1a25******
-DEVICE=enp0s5
-ONBOOT=yes
-
-IPADDR=10.211.55.5
-GATEWAY=10.211.55.1
-NETMASK=255.255.255.0
-DNS1=10.211.55.1
-</code></pre><h3 id="注意">注意：</h3>
-<h4 id="1每个人的环境有所不同请根据自己的虚拟机分配的ip地址更改为您自己的ip地址">1.每个人的环境有所不同，请根据自己的虚拟机分配的IP地址更改为您自己的IP地址</h4>
-<h4 id="2如果您的onboot参数默认为no请按照下面修改">2.如果您的ONBOOT参数默认为no，请按照下面修改</h4>
-<pre tabindex="0"><code>将
-ONBOOT=no
-
-请修改为
-ONBOOT=yes
-</code></pre>
                     </article>
                 
             

@@ -6,11 +6,11 @@
     <description>Recent content in Tags on 鹏大的大鹏</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 05 Apr 2022 14:58:48 +0800</lastBuildDate><atom:link href="https://pengda.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Apr 2022 16:30:00 +0800</lastBuildDate><atom:link href="https://pengda.me/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CentOS</title>
       <link>https://pengda.me/tags/CentOS/</link>
-      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
+      <pubDate>Tue, 05 Apr 2022 16:30:00 +0800</pubDate>
       
       <guid>https://pengda.me/tags/CentOS/</guid>
       <description></description>
@@ -19,9 +19,36 @@
     <item>
       <title>Linux</title>
       <link>https://pengda.me/tags/Linux/</link>
-      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
+      <pubDate>Tue, 05 Apr 2022 16:30:00 +0800</pubDate>
       
       <guid>https://pengda.me/tags/Linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plugins</title>
+      <link>https://pengda.me/tags/Plugins/</link>
+      <pubDate>Tue, 05 Apr 2022 16:30:00 +0800</pubDate>
+      
+      <guid>https://pengda.me/tags/Plugins/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rocky</title>
+      <link>https://pengda.me/tags/Rocky/</link>
+      <pubDate>Tue, 05 Apr 2022 16:30:00 +0800</pubDate>
+      
+      <guid>https://pengda.me/tags/Rocky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Zsh</title>
+      <link>https://pengda.me/tags/Zsh/</link>
+      <pubDate>Tue, 05 Apr 2022 16:30:00 +0800</pubDate>
+      
+      <guid>https://pengda.me/tags/Zsh/</guid>
       <description></description>
     </item>
     
@@ -31,15 +58,6 @@
       <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
       
       <guid>https://pengda.me/tags/Network/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Rocky</title>
-      <link>https://pengda.me/tags/Rocky/</link>
-      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
-      
-      <guid>https://pengda.me/tags/Rocky/</guid>
       <description></description>
     </item>
     

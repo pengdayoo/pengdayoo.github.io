@@ -3,19 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://pengda.me/categories/</loc>
-    <lastmod>2022-04-05T14:58:48+08:00</lastmod>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
   </url><url>
     <loc>https://pengda.me/tags/CentOS/</loc>
-    <lastmod>2022-04-05T14:58:48+08:00</lastmod>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
   </url><url>
     <loc>https://pengda.me/categories/CentOS/</loc>
-    <lastmod>2022-04-05T14:58:48+08:00</lastmod>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
   </url><url>
     <loc>https://pengda.me/tags/Linux/</loc>
-    <lastmod>2022-04-05T14:58:48+08:00</lastmod>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
   </url><url>
     <loc>https://pengda.me/categories/Linux/</loc>
-    <lastmod>2022-04-05T14:58:48+08:00</lastmod>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://pengda.me/tags/Plugins/</loc>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://pengda.me/categories/Plugins/</loc>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://pengda.me/posts/</loc>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://pengda.me/tags/Rocky/</loc>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://pengda.me/series/Rocky/</loc>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://pengda.me/categories/Rocky/</loc>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://pengda.me/posts/linuxZshPlugins/</loc>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://pengda.me/series/</loc>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://pengda.me/tags/</loc>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://pengda.me/tags/Zsh/</loc>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://pengda.me/categories/Zsh/</loc>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
+  </url><url>
+    <loc>https://pengda.me/</loc>
+    <lastmod>2022-04-05T16:30:00+08:00</lastmod>
   </url><url>
     <loc>https://pengda.me/tags/Network/</loc>
     <lastmod>2022-04-05T14:58:48+08:00</lastmod>
@@ -23,31 +59,10 @@
     <loc>https://pengda.me/categories/Network/</loc>
     <lastmod>2022-04-05T14:58:48+08:00</lastmod>
   </url><url>
-    <loc>https://pengda.me/posts/</loc>
-    <lastmod>2022-04-05T14:58:48+08:00</lastmod>
-  </url><url>
-    <loc>https://pengda.me/tags/Rocky/</loc>
-    <lastmod>2022-04-05T14:58:48+08:00</lastmod>
-  </url><url>
-    <loc>https://pengda.me/series/Rocky/</loc>
-    <lastmod>2022-04-05T14:58:48+08:00</lastmod>
-  </url><url>
-    <loc>https://pengda.me/categories/Rocky/</loc>
-    <lastmod>2022-04-05T14:58:48+08:00</lastmod>
-  </url><url>
     <loc>https://pengda.me/posts/LinuxStaticNetwork/</loc>
     <lastmod>2022-04-05T14:58:48+08:00</lastmod>
   </url><url>
-    <loc>https://pengda.me/series/</loc>
-    <lastmod>2022-04-05T14:58:48+08:00</lastmod>
-  </url><url>
     <loc>https://pengda.me/tags/Setting/</loc>
-    <lastmod>2022-04-05T14:58:48+08:00</lastmod>
-  </url><url>
-    <loc>https://pengda.me/tags/</loc>
-    <lastmod>2022-04-05T14:58:48+08:00</lastmod>
-  </url><url>
-    <loc>https://pengda.me/</loc>
     <lastmod>2022-04-05T14:58:48+08:00</lastmod>
   </url><url>
     <loc>https://pengda.me/tags/config/</loc>

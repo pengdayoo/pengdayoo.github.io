@@ -6,7 +6,17 @@
     <description>Recent content in Linux on 鹏大的大鹏</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 05 Apr 2022 14:58:48 +0800</lastBuildDate><atom:link href="https://pengda.me/categories/Linux/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Apr 2022 16:30:00 +0800</lastBuildDate><atom:link href="https://pengda.me/categories/Linux/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rocky Linux设置zsh</title>
+      <link>https://pengda.me/posts/linuxZshPlugins/</link>
+      <pubDate>Tue, 05 Apr 2022 16:30:00 +0800</pubDate>
+      
+      <guid>https://pengda.me/posts/linuxZshPlugins/</guid>
+      <description>Rocky Linux安装并设置zsh插件 系统环境： 虚拟机：Parallels Desktop 17 for Mac .Version 17.1.0(51516) 操作系统：Rocky Linux 8.5 (Green Obsidian) x86_64 Kernel：4.18.0-348.20.1.el8_5.x86_64 操作过程 1.安装zsh yum install zsh 2.切换zsh chsh -s /bin/zsh 不想用了切回 chsh -s /bin/bash 3.下载插件 自动补全命令： 说明：zsh-autosuggestions，会从历史命令中给出命令提示，按tab可补全命令 git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions 高亮插件： 说明：zsh-syntax-highlighting，正确的命令绿色，错误的命令红色 git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting 4.特殊命令autojump，使用j path即可快速跳转到历史进入过的目录 git clone https://github.com/wting/autojump.git ~/autojump cd ~/autojump ./install.py 将 [ -f /usr/local/etc/profile.d/autojump.sh ] &amp;amp;&amp;amp; . /usr/local/etc/profile.d/autojump.sh 写入到 ~/.zshrc 注意：安装autojump报错处理 执行：./install.py如果报错，请参考下面步骤处理
+/usr/bin/env: ‘python’: No such file or directory 1.</description>
+    </item>
+    
     <item>
       <title>Rocky Linux设置静态IP</title>
       <link>https://pengda.me/posts/LinuxStaticNetwork/</link>

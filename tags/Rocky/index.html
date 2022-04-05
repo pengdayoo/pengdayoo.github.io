@@ -74,6 +74,15 @@
                 <li>
                     <span>
                         
+                        <a href='#linuxZshPlugins' alt="Rocky Linux设置zsh">
+                            Rocky Linux设置zsh
+                        </a>
+                        
+                    </span>
+                </li>
+                <li>
+                    <span>
+                        
                         <a href='#LinuxStaticNetwork' alt="Rocky Linux设置静态IP">
                             Rocky Linux设置静态IP
                         </a>
@@ -90,6 +99,90 @@
     
 
     <div id="main">
+        
+            
+                
+                    
+                    <article id='linuxZshPlugins'>
+                        <h2 class="major">Rocky Linux设置zsh</h2>
+                        
+                            
+                                <time datetime='2022-04-05T16:30:00&#43;0800' class="post-date">Create. 2022-04-05 16:30:00</time>
+                            
+                        
+                        <span class="image main"><img src="" alt="" /></span>
+                        <h2 id="rocky-linux安装并设置zsh插件">Rocky Linux安装并设置zsh插件</h2>
+<h3 id="系统环境">系统环境：</h3>
+<pre tabindex="0"><code>虚拟机：Parallels Desktop 17 for Mac  .Version 17.1.0(51516)
+操作系统：Rocky Linux 8.5 (Green Obsidian) x86_64
+Kernel：4.18.0-348.20.1.el8_5.x86_64
+</code></pre><p><img src="/images/Rocky8.5-neofetch.png" alt="CentOS8-neofetch"></p>
+<h3 id="操作过程">操作过程</h3>
+<h4 id="1安装zsh">1.安装zsh</h4>
+<pre tabindex="0"><code>yum install zsh
+</code></pre><h4 id="2切换zsh">2.切换zsh</h4>
+<pre tabindex="0"><code>chsh -s /bin/zsh
+
+不想用了切回
+chsh -s /bin/bash
+</code></pre><h4 id="3下载插件">3.下载插件</h4>
+<pre tabindex="0"><code>自动补全命令：
+说明：zsh-autosuggestions，会从历史命令中给出命令提示，按tab可补全命令
+
+git clone https://github.com/zsh-users/zsh-autosuggestions.git $ZSH_CUSTOM/plugins/zsh-autosuggestions
+
+高亮插件：
+说明：zsh-syntax-highlighting，正确的命令绿色，错误的命令红色
+
+git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $ZSH_CUSTOM/plugins/zsh-syntax-highlighting
+</code></pre><h4 id="4特殊命令autojump使用j-path即可快速跳转到历史进入过的目录">4.特殊命令autojump，使用j path即可快速跳转到历史进入过的目录</h4>
+<pre tabindex="0"><code>git clone https://github.com/wting/autojump.git ~/autojump
+
+cd ~/autojump
+
+./install.py
+
+将
+
+[ -f /usr/local/etc/profile.d/autojump.sh ] &amp;&amp; . /usr/local/etc/profile.d/autojump.sh
+
+写入到
+~/.zshrc
+</code></pre><h5 id="注意安装autojump报错处理">注意：安装autojump报错处理</h5>
+<p>执行：./install.py如果报错，请参考下面步骤处理</p>
+<pre tabindex="0"><code>/usr/bin/env: ‘python’: No such file or directory
+</code></pre><p>1.检测是否已安装python</p>
+<pre tabindex="0"><code>which python
+</code></pre><p>2.提示找不到命令可以尝试看看是否有python2 python3等命令，
+不存在则先安装python，存在跳过这一步</p>
+<pre tabindex="0"><code>yum install python
+</code></pre><p>3.存在python2或者python3则进行如下操作</p>
+<pre tabindex="0"><code>cd /usr/bin
+
+ln -s python2.7 python
+</code></pre><p>4.再次执行脚本安装即可</p>
+<pre tabindex="0"><code>./install.py
+</code></pre><h4 id="5编辑zshrc">5.编辑~/.zshrc</h4>
+<pre tabindex="0"><code>vim ~/.zshrc
+
+将
+zsh-autosuggestions、zsh-syntax-highlighting
+插件加入到plugins配置中
+
+增加后如下
+plugins=(
+        git
+        zsh-autosuggestions
+        zsh-syntax-highlighting
+)
+
+保存后执行
+source ~/.zshrc
+</code></pre><p>可以根据自己的需求可以增加其他插件到zsh配置中。</p>
+
+                    </article>
+                
+            
         
             
                 
