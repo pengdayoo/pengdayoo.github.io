@@ -6,14 +6,23 @@
     <description>Recent content in Posts on 鹏大的大鹏</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 02 Jul 2021 14:17:11 +0800</lastBuildDate><atom:link href="https://pengda.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Apr 2022 14:58:48 +0800</lastBuildDate><atom:link href="https://pengda.me/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rocky Linux设置静态IP</title>
+      <link>https://pengda.me/posts/LinuxStaticNetwork/</link>
+      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
+      
+      <guid>https://pengda.me/posts/LinuxStaticNetwork/</guid>
+      <description>虚拟机安装Rocky Linux后设置网络、静态IP 系统环境： 虚拟机：Parallels Desktop 17 for Mac .Version 17.1.0(51516) 操作系统：Rocky Linux 8.5 (Green Obsidian) x86_64 Kernel：4.18.0-348.20.1.el8_5.x86_64 操作过程 1.进入网络配置目录 cd /etc/sysconfig/network-scripts/ 2.编辑网络配置文件（文件名一般为ifcfg-enp0s开头，后面是0-9的数字，这里我的是ifcfg-enp0s5） vim ifcfg-enp0s5 3.内容一般如下 TYPE=Ethernet PROXY_METHOD=none BROWSER_ONLY=no BOOTPROTO=dhcp DEFROUTE=yes IPV4_FAILURE_FATAL=no IPV6INIT=yes IPV6_AUTOCONF=yes IPV6_DEFROUTE=yes IPV6_FAILURE_FATAL=no NAME=enp0s5 UUID=83ae****-7c**-49**-9f**-8f1a25****** DEVICE=enp0s5 ONBOOT=yes 4.修改内容为 将 BOOTPROTO=dhcp 修改为 BOOTPROTO=static 不放心可以先将BOOTPROTO=dhcp注释，前面加#即可，查看6.修改后的内容为 5.添加内容为 IPADDR=10.211.55.5 GATEWAY=10.211.55.1 NETMASK=255.255.255.0 DNS1=10.211.55.1 6.修改后的内容为 TYPE=Ethernet PROXY_METHOD=none BROWSER_ONLY=no #BOOTPROTO=dhcp BOOTPROTO=static DEFROUTE=yes IPV4_FAILURE_FATAL=no IPV6INIT=yes IPV6_AUTOCONF=yes IPV6_DEFROUTE=yes IPV6_FAILURE_FATAL=no NAME=enp0s5 UUID=83ae****-7c**-49**-9f**-8f1a25****** DEVICE=enp0s5 ONBOOT=yes IPADDR=10.211.55.5 GATEWAY=10.211.55.1 NETMASK=255.255.255.0 DNS1=10.211.55.1 注意： 1.</description>
+    </item>
+    
     <item>
       <title>vim编辑器配置</title>
       <link>https://pengda.me/posts/VimConfig/</link>
       <pubDate>Fri, 02 Jul 2021 14:17:11 +0800</pubDate>
       
       <guid>https://pengda.me/posts/VimConfig/</guid>
-      <description>个人使用的vim编辑器配置文件带说明 系统环境： 虚拟机：Parallels Desktop 16 for Mac .Version 16.1.2(49151) 操作系统：CentOS Linux release 8.4.2105 配置文件： &amp;quot; Configuration file for vim set modelines=0 &amp;quot; CVE-2007-2438 &amp;quot; Normally we use vim-extensions. If you want true vi-compatibility &amp;quot; remove change the following statements set nocompatible &amp;quot; Use Vim defaults instead of 100% vi compatibility set backspace=indent,eol,start set backspace=2 &amp;quot; more powerful backspacing &amp;quot; Don&#39;t write backup file if vim is being called by &amp;quot;crontab -e&amp;quot; au BufWrite /private/tmp/crontab.</description>
+      <description>个人使用的vim编辑器配置文件带说明 系统环境： 虚拟机：Parallels Desktop 16 for Mac .Version 16.1.2(49151) 操作系统：CentOS Linux release 8.4.2105 配置文件： &amp;#34; Configuration file for vim set modelines=0 &amp;#34; CVE-2007-2438 &amp;#34; Normally we use vim-extensions. If you want true vi-compatibility &amp;#34; remove change the following statements set nocompatible &amp;#34; Use Vim defaults instead of 100% vi compatibility set backspace=indent,eol,start set backspace=2 &amp;#34; more powerful backspacing &amp;#34; Don&amp;#39;t write backup file if vim is being called by &amp;#34;crontab -e&amp;#34; au BufWrite /private/tmp/crontab.</description>
     </item>
     
     <item>
@@ -72,7 +81,7 @@ apt-get update apt-get install vim -y </description>
       
       <guid>https://pengda.me/posts/elements/</guid>
       <description>Table of contents  Table of contents Text Code  Python C/C++ Bash   Tables  Text Some example text
-Code Python def foo(): print (&amp;#34;This is a python function&amp;#34;) C/C++ void foo(){ prinf(&amp;#34;%s\n&amp;#34;, &amp;#34;This is a C function&amp;#34;) } Bash # This is a bash command cd dir &amp;amp;&amp;amp; echo $PWD; # Return exit 0; Tables    Pages Elements     1 Text   2 Code   3 Tables    </description>
+Code Python def foo():  print (&amp;#34;This is a python function&amp;#34;) C/C++ void foo(){  prinf(&amp;#34;%s\n&amp;#34;, &amp;#34;This is a C function&amp;#34;) } Bash # This is a bash command cd dir &amp;amp;&amp;amp; echo $PWD;  # Return exit 0; Tables    Pages Elements     1 Text   2 Code   3 Tables    </description>
     </item>
     
     <item>

@@ -6,7 +6,43 @@
     <description>Recent content in Categories on 鹏大的大鹏</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 02 Jul 2021 14:17:11 +0800</lastBuildDate><atom:link href="https://pengda.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Apr 2022 14:58:48 +0800</lastBuildDate><atom:link href="https://pengda.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CentOS</title>
+      <link>https://pengda.me/categories/CentOS/</link>
+      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
+      
+      <guid>https://pengda.me/categories/CentOS/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://pengda.me/categories/Linux/</link>
+      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
+      
+      <guid>https://pengda.me/categories/Linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://pengda.me/categories/Network/</link>
+      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
+      
+      <guid>https://pengda.me/categories/Network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rocky</title>
+      <link>https://pengda.me/categories/Rocky/</link>
+      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
+      
+      <guid>https://pengda.me/categories/Rocky/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>vim</title>
       <link>https://pengda.me/categories/vim/</link>
@@ -40,24 +76,6 @@
       <pubDate>Fri, 02 Jul 2021 09:09:12 +0800</pubDate>
       
       <guid>https://pengda.me/categories/MySQL/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>CentOS</title>
-      <link>https://pengda.me/categories/CentOS/</link>
-      <pubDate>Tue, 29 Jun 2021 14:32:22 +0800</pubDate>
-      
-      <guid>https://pengda.me/categories/CentOS/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://pengda.me/categories/Linux/</link>
-      <pubDate>Tue, 29 Jun 2021 14:32:22 +0800</pubDate>
-      
-      <guid>https://pengda.me/categories/Linux/</guid>
       <description></description>
     </item>
     

@@ -6,7 +6,52 @@
     <description>Recent content in Tags on 鹏大的大鹏</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 02 Jul 2021 14:17:11 +0800</lastBuildDate><atom:link href="https://pengda.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 05 Apr 2022 14:58:48 +0800</lastBuildDate><atom:link href="https://pengda.me/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CentOS</title>
+      <link>https://pengda.me/tags/CentOS/</link>
+      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
+      
+      <guid>https://pengda.me/tags/CentOS/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Linux</title>
+      <link>https://pengda.me/tags/Linux/</link>
+      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
+      
+      <guid>https://pengda.me/tags/Linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network</title>
+      <link>https://pengda.me/tags/Network/</link>
+      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
+      
+      <guid>https://pengda.me/tags/Network/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rocky</title>
+      <link>https://pengda.me/tags/Rocky/</link>
+      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
+      
+      <guid>https://pengda.me/tags/Rocky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Setting</title>
+      <link>https://pengda.me/tags/Setting/</link>
+      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
+      
+      <guid>https://pengda.me/tags/Setting/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>config</title>
       <link>https://pengda.me/tags/config/</link>
@@ -80,15 +125,6 @@
     </item>
     
     <item>
-      <title>CentOS</title>
-      <link>https://pengda.me/tags/CentOS/</link>
-      <pubDate>Tue, 29 Jun 2021 14:32:22 +0800</pubDate>
-      
-      <guid>https://pengda.me/tags/CentOS/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>CentOS8</title>
       <link>https://pengda.me/tags/CentOS8/</link>
       <pubDate>Tue, 29 Jun 2021 14:32:22 +0800</pubDate>
@@ -103,15 +139,6 @@
       <pubDate>Tue, 29 Jun 2021 14:32:22 +0800</pubDate>
       
       <guid>https://pengda.me/tags/Install/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Linux</title>
-      <link>https://pengda.me/tags/Linux/</link>
-      <pubDate>Tue, 29 Jun 2021 14:32:22 +0800</pubDate>
-      
-      <guid>https://pengda.me/tags/Linux/</guid>
       <description></description>
     </item>
     
