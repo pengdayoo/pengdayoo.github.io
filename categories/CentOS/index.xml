@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>CentOS on 鹏大的大鹏</title>
-    <link>https://pengda.me/categories/CentOS/</link>
-    <description>Recent content in CentOS on 鹏大的大鹏</description>
+    <title>CentOS on 鹏大的电厂</title>
+    <link>https://22kw.cn/categories/CentOS/</link>
+    <description>Recent content in CentOS on 鹏大的电厂</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 29 Jun 2021 14:32:22 +0800</lastBuildDate><atom:link href="https://pengda.me/categories/CentOS/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 29 Jun 2021 14:32:22 +0800</lastBuildDate><atom:link href="https://22kw.cn/categories/CentOS/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>CentOS8安装Docker</title>
-      <link>https://pengda.me/posts/CentOS8InstallDocker/</link>
+      <link>https://22kw.cn/posts/CentOS8InstallDocker/</link>
       <pubDate>Tue, 29 Jun 2021 14:32:22 +0800</pubDate>
       
-      <guid>https://pengda.me/posts/CentOS8InstallDocker/</guid>
+      <guid>https://22kw.cn/posts/CentOS8InstallDocker/</guid>
       <description>在CentOS8系统上安装Docker环境步骤 系统环境： 虚拟机：Parallels Desktop 16 for Mac .Version 16.1.2(49151) 操作系统：CentOS Linux release 8.4.2105 Docker：20.10.7, build f0df350 安装过程 error.先发个错误：podman已经安装导致的报错，执行以下命令删除podman后继续执行后续安装步骤即可，如果你不知道podman是什么，建议直接先执行以下解决方案给出的命令 解决方案： yum -y erase podman buildah 错误参考：(只要看到 installed package podman&amp;hellip; 基本就是这个问题) Error: Problem 1: problem with installed package podman-3.0.1-7.module_el8.4.0+830+8027e1c4.x86_64 - package podman-3.0.1-7.module_el8.4.0+830+8027e1c4.x86_64 requires runc &amp;gt;= 1.0.0-57, but none of the providers can be installed - package podman-3.0.1-6.module_el8.4.0+781+acf4c33b.x86_64 requires runc &amp;gt;= 1.0.0-57, but none of the providers can be installed - package containerd.io-1.4.6-3.1.el8.x86_64 conflicts with runc provided by runc-1.</description>
     </item>
     

@@ -1,81 +1,81 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on 鹏大的大鹏</title>
-    <link>https://pengda.me/categories/</link>
-    <description>Recent content in Categories on 鹏大的大鹏</description>
+    <title>Categories on 鹏大的电厂</title>
+    <link>https://22kw.cn/categories/</link>
+    <description>Recent content in Categories on 鹏大的电厂</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 02 Jul 2021 14:17:11 +0800</lastBuildDate><atom:link href="https://pengda.me/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 14:17:11 +0800</lastBuildDate><atom:link href="https://22kw.cn/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vim</title>
-      <link>https://pengda.me/categories/vim/</link>
+      <link>https://22kw.cn/categories/vim/</link>
       <pubDate>Fri, 02 Jul 2021 14:17:11 +0800</pubDate>
       
-      <guid>https://pengda.me/categories/vim/</guid>
+      <guid>https://22kw.cn/categories/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>https://pengda.me/categories/Docker/</link>
+      <link>https://22kw.cn/categories/Docker/</link>
       <pubDate>Fri, 02 Jul 2021 11:06:12 +0800</pubDate>
       
-      <guid>https://pengda.me/categories/Docker/</guid>
+      <guid>https://22kw.cn/categories/Docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>prune</title>
-      <link>https://pengda.me/categories/prune/</link>
+      <link>https://22kw.cn/categories/prune/</link>
       <pubDate>Fri, 02 Jul 2021 11:06:12 +0800</pubDate>
       
-      <guid>https://pengda.me/categories/prune/</guid>
+      <guid>https://22kw.cn/categories/prune/</guid>
       <description></description>
     </item>
     
     <item>
       <title>MySQL</title>
-      <link>https://pengda.me/categories/MySQL/</link>
+      <link>https://22kw.cn/categories/MySQL/</link>
       <pubDate>Fri, 02 Jul 2021 09:09:12 +0800</pubDate>
       
-      <guid>https://pengda.me/categories/MySQL/</guid>
+      <guid>https://22kw.cn/categories/MySQL/</guid>
       <description></description>
     </item>
     
     <item>
       <title>CentOS</title>
-      <link>https://pengda.me/categories/CentOS/</link>
+      <link>https://22kw.cn/categories/CentOS/</link>
       <pubDate>Tue, 29 Jun 2021 14:32:22 +0800</pubDate>
       
-      <guid>https://pengda.me/categories/CentOS/</guid>
+      <guid>https://22kw.cn/categories/CentOS/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Linux</title>
-      <link>https://pengda.me/categories/Linux/</link>
+      <link>https://22kw.cn/categories/Linux/</link>
       <pubDate>Tue, 29 Jun 2021 14:32:22 +0800</pubDate>
       
-      <guid>https://pengda.me/categories/Linux/</guid>
+      <guid>https://22kw.cn/categories/Linux/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugoC</title>
-      <link>https://pengda.me/categories/hugoC/</link>
+      <link>https://22kw.cn/categories/hugoC/</link>
       <pubDate>Fri, 18 Jun 2021 09:22:23 +0800</pubDate>
       
-      <guid>https://pengda.me/categories/hugoC/</guid>
+      <guid>https://22kw.cn/categories/hugoC/</guid>
       <description></description>
     </item>
     
     <item>
       <title>博客创建</title>
-      <link>https://pengda.me/categories/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</link>
+      <link>https://22kw.cn/categories/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</link>
       <pubDate>Fri, 18 Jun 2021 09:22:23 +0800</pubDate>
       
-      <guid>https://pengda.me/categories/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</guid>
+      <guid>https://22kw.cn/categories/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</guid>
       <description></description>
     </item>
     

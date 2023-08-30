@@ -1,36 +1,36 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Series on 鹏大的大鹏</title>
-    <link>https://pengda.me/series/</link>
-    <description>Recent content in Series on 鹏大的大鹏</description>
+    <title>Series on 鹏大的电厂</title>
+    <link>https://22kw.cn/series/</link>
+    <description>Recent content in Series on 鹏大的电厂</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 02 Jul 2021 14:17:11 +0800</lastBuildDate><atom:link href="https://pengda.me/series/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 02 Jul 2021 14:17:11 +0800</lastBuildDate><atom:link href="https://22kw.cn/series/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vim</title>
-      <link>https://pengda.me/series/vim/</link>
+      <link>https://22kw.cn/series/vim/</link>
       <pubDate>Fri, 02 Jul 2021 14:17:11 +0800</pubDate>
       
-      <guid>https://pengda.me/series/vim/</guid>
+      <guid>https://22kw.cn/series/vim/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Docker</title>
-      <link>https://pengda.me/series/Docker/</link>
+      <link>https://22kw.cn/series/Docker/</link>
       <pubDate>Fri, 02 Jul 2021 11:06:12 +0800</pubDate>
       
-      <guid>https://pengda.me/series/Docker/</guid>
+      <guid>https://22kw.cn/series/Docker/</guid>
       <description></description>
     </item>
     
     <item>
       <title>hugoS</title>
-      <link>https://pengda.me/series/hugoS/</link>
+      <link>https://22kw.cn/series/hugoS/</link>
       <pubDate>Fri, 18 Jun 2021 09:22:23 +0800</pubDate>
       
-      <guid>https://pengda.me/series/hugoS/</guid>
+      <guid>https://22kw.cn/series/hugoS/</guid>
       <description></description>
     </item>
     

@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>博客创建 on 鹏大的大鹏</title>
-    <link>https://pengda.me/categories/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</link>
-    <description>Recent content in 博客创建 on 鹏大的大鹏</description>
+    <title>博客创建 on 鹏大的电厂</title>
+    <link>https://22kw.cn/categories/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/</link>
+    <description>Recent content in 博客创建 on 鹏大的电厂</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 18 Jun 2021 09:22:23 +0800</lastBuildDate><atom:link href="https://pengda.me/categories/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 18 Jun 2021 09:22:23 +0800</lastBuildDate><atom:link href="https://22kw.cn/categories/%E5%8D%9A%E5%AE%A2%E5%88%9B%E5%BB%BA/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>elements</title>
-      <link>https://pengda.me/posts/elements/</link>
+      <link>https://22kw.cn/posts/elements/</link>
       <pubDate>Fri, 18 Jun 2021 09:22:23 +0800</pubDate>
       
-      <guid>https://pengda.me/posts/elements/</guid>
-      <description>Table of contents  Table of contents Text Code  Python C/C++ Bash   Tables  Text Some example text
-Code Python def foo(): print (&amp;#34;This is a python function&amp;#34;) C/C++ void foo(){ prinf(&amp;#34;%s\n&amp;#34;, &amp;#34;This is a C function&amp;#34;) } Bash # This is a bash command cd dir &amp;amp;&amp;amp; echo $PWD; # Return exit 0; Tables    Pages Elements     1 Text   2 Code   3 Tables    </description>
+      <guid>https://22kw.cn/posts/elements/</guid>
+      <description>Table of contents Table of contents Text Code Python C/C++ Bash Tables Text Some example text
+Code Python def foo(): print (&amp;#34;This is a python function&amp;#34;) C/C++ void foo(){ prinf(&amp;#34;%s\n&amp;#34;, &amp;#34;This is a C function&amp;#34;) } Bash # This is a bash command cd dir &amp;amp;&amp;amp; echo $PWD; # Return exit 0; Tables Pages Elements 1 Text 2 Code 3 Tables </description>
     </item>
     
     <item>
       <title>First</title>
-      <link>https://pengda.me/posts/first/</link>
+      <link>https://22kw.cn/posts/first/</link>
       <pubDate>Fri, 18 Jun 2021 09:22:23 +0800</pubDate>
       
-      <guid>https://pengda.me/posts/first/</guid>
+      <guid>https://22kw.cn/posts/first/</guid>
       <description>Blog Blog created successfully.</description>
     </item>
     
