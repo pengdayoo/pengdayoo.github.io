@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Network on 鹏大的大鹏</title>
+    <link>https://pengda.me/categories/Network/</link>
+    <description>Recent content in Network on 鹏大的大鹏</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 05 Apr 2022 14:58:48 +0800</lastBuildDate><atom:link href="https://pengda.me/categories/Network/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rocky Linux设置静态IP</title>
+      <link>https://pengda.me/posts/LinuxStaticNetwork/</link>
+      <pubDate>Tue, 05 Apr 2022 14:58:48 +0800</pubDate>
+      
+      <guid>https://pengda.me/posts/LinuxStaticNetwork/</guid>
+      <description>虚拟机安装Rocky Linux后设置网络、静态IP 系统环境： 虚拟机：Parallels Desktop 17 for Mac .Version 17.1.0(51516) 操作系统：Rocky Linux 8.5 (Green Obsidian) x86_64 Kernel：4.18.0-348.20.1.el8_5.x86_64 操作过程 1.进入网络配置目录 cd /etc/sysconfig/network-scripts/ 2.编辑网络配置文件（文件名一般为ifcfg-enp0s开头，后面是0-9的数字，这里我的是ifcfg-enp0s5） vim ifcfg-enp0s5 3.内容一般如下 TYPE=Ethernet PROXY_METHOD=none BROWSER_ONLY=no BOOTPROTO=dhcp DEFROUTE=yes IPV4_FAILURE_FATAL=no IPV6INIT=yes IPV6_AUTOCONF=yes IPV6_DEFROUTE=yes IPV6_FAILURE_FATAL=no NAME=enp0s5 UUID=83ae****-7c**-49**-9f**-8f1a25****** DEVICE=enp0s5 ONBOOT=yes 4.修改内容为 将 BOOTPROTO=dhcp 修改为 BOOTPROTO=static 不放心可以先将BOOTPROTO=dhcp注释，前面加#即可，查看6.修改后的内容为 5.添加内容为 IPADDR=10.211.55.5 GATEWAY=10.211.55.1 NETMASK=255.255.255.0 DNS1=10.211.55.1 6.修改后的内容为 TYPE=Ethernet PROXY_METHOD=none BROWSER_ONLY=no #BOOTPROTO=dhcp BOOTPROTO=static DEFROUTE=yes IPV4_FAILURE_FATAL=no IPV6INIT=yes IPV6_AUTOCONF=yes IPV6_DEFROUTE=yes IPV6_FAILURE_FATAL=no NAME=enp0s5 UUID=83ae****-7c**-49**-9f**-8f1a25****** DEVICE=enp0s5 ONBOOT=yes IPADDR=10.211.55.5 GATEWAY=10.211.55.1 NETMASK=255.255.255.0 DNS1=10.211.55.1 注意： 1.</description>
+    </item>
+    
+  </channel>
+</rss>
